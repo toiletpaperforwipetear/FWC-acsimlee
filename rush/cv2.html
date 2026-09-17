@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login2 - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body { padding-top: 70px; scroll-behavior: smooth; }
+      section { padding: 60px 0; }
+      #about { background-color: #f8f9fa; }
+      .profile-pic {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,.15);
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navigation bar : always visible -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">&larr; Back</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#showcase">Showcase</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About section -->
+    <section id="about">
+      <div class="container text-center">
+        <img src="https://picsum.photos/id/91/300/300" alt="Login2 profile" class="profile-pic mb-3">
+        <h2>Login2</h2>
+        <p class="text-muted">Discovery Piscine Student &mdash; 42 Bangkok</p>
+        <p class="mx-auto" style="max-width: 600px;">
+          Placeholder bio: passionate about learning to code, currently going through
+          the Discovery Piscine. Replace this text with your real background,
+          education, or personal interests.
+        </p>
+      </div>
+    </section>
+
+    <!-- Showcase section -->
+    <section id="showcase">
+      <div class="container">
+        <h2 class="text-center mb-5">Showcase</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Skill / Project 1</h5>
+                <p class="card-text">Placeholder description of a skill, experience or project.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Skill / Project 2</h5>
+                <p class="card-text">Placeholder description of a skill, experience or project.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">Skill / Project 3</h5>
+                <p class="card-text">Placeholder description of a skill, experience or project.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="bg-dark text-white text-center">
+      <div class="container">
+        <h2 class="mb-4">Contact</h2>
+        <div class="d-flex justify-content-center gap-4 fs-3">
+          <a href="#" class="text-white" title="GitHub">GitHub</a>
+          <a href="#" class="text-white" title="LinkedIn">LinkedIn</a>
+          <a href="#" class="text-white" title="Instagram">Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
