@@ -166,3 +166,78 @@
   border: 1px solid #3a3a5c;
   border-radius: 8px;
 }
+
+.cv1-navbar {
+  background-color: #0f766e;
+  border-bottom: 2px solid #0b4f4a;
+  box-shadow: 0 2px 12px rgba(15, 118, 110, 0.25);
+}
+
+.cv1-page .profile-hero,
+.cv1-page .showcase-section {
+  border-color: #0f766e;
+}
+
+.cv1-page .profile-pic {
+  border-color: #0f766e;
+  box-shadow: 0 4px 12px rgba(15, 118, 110, 0.25);
+}
+
+.cv1-page .profile-role {
+  color: #0f766e;
+}
+
+.cv1-page .contact-button {
+  color: #0f766e;
+  border-color: #0f766e;
+}
+
+.cv1-page .contact-button:hover,
+.cv1-page .contact-button:focus {
+  color: #fff;
+  background-color: #0f766e;
+  border-color: #0f766e;
+}
+
+.cv1-page .card {
+  border-color: #0f766e;
+}
+
+.cv1-page .showcase-link-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.15s;
+}
+
+.cv1-page .showcase-link-card:hover {
+  transform: translateY(-4px);
+}
+
+.showcase-two-images {
+  display: flex;
+  flex: 1;
+  min-height: 420px;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.showcase-two-images img {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #fff;
+  border: 1px solid #0f766e;
+  border-radius: 8px;
+}
+
+.showcase-two-images.stacked {
+  flex-direction: column;
+  min-height: 0;
+}
+
+.showcase-two-images.stacked img {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
