@@ -175,7 +175,6 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
 }
 
-
 .cv1-page .profile-hero,
 .cv1-page .showcase-section {
   border-color: #2dd4bf;
@@ -187,16 +186,13 @@
   box-shadow: 0 4px 16px rgba(45, 212, 191, 0.3);
 }
 
-
 .cv1-page .profile-role {
   color: #2dd4bf;
 }
 
-
 .cv1-page .bio {
   color: #9198a1;
 }
-
 
 .cv1-page .contact-button {
   color: #2dd4bf;
@@ -225,11 +221,9 @@
   color: #9198a1;
 }
 
-
 .cv1-page .showcase-one-image {
   border-color: #2dd4bf;
 }
-
 
 .cv1-page .showcase-link-card {
   text-decoration: none;
