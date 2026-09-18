@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>acsimlee - Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
@@ -10,26 +9,21 @@
   </head>
   <body class="portfolio-page">
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top portfolio-navbar">
+    <nav class="navbar navbar-dark fixed-top portfolio-navbar">
       <div class="container">
         <a class="navbar-brand" href="index.html">&larr; Back</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#showcase">Showcase</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div>
+        <ul class="navbar-nav flex-row ms-auto gap-4">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#showcase">Showcase</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
       </div>
     </nav>
 
     <section id="about" class="profile-hero">
       <div class="container">
         <div class="row align-items-center g-5">
-          <div class="col-lg-6 profile-details">
+          <div class="col-6 profile-details">
             <h2>Hello! I'm acsimlee.</h2>
             <h1>ACHIRAYU SIMLEE</h1>
             <p class="bio">
@@ -38,7 +32,7 @@
             </p>
             <div id="contact" class="contact-links">
               <h2>Contact</h2>
-              <div class="d-flex flex-wrap gap-3">
+              <div class="d-flex gap-3">
                 <a href="https://github.com/toiletpaperforwipetear/FWC-acsimlee" class="btn contact-button social-icon" aria-label="GitHub" title="GitHub">
                   <i class="fa-brands fa-github" aria-hidden="true"></i>
                 </a>
@@ -51,7 +45,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 text-center">
+          <div class="col-6 text-center">
             <img src="images/profile.jpg" alt="Login2 profile" class="profile-pic">
           </div>
         </div>
@@ -62,7 +56,7 @@
       <div class="container">
         <h2 class="text-center mb-5">Showcase</h2>
         <div class="row g-4">
-          <div class="col-md-4">
+          <div class="col-4">
             <div class="card h-100 showcase-one-card">
               <div class="card-body">
                 <h5 class="card-title">WEB Design</h5>
@@ -71,7 +65,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-4">
             <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title">Room909</h5>
@@ -84,7 +78,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-4">
             <div class="card h-100">
               <div class="card-body">
                 <h5 class="card-title">Overwatch Competition</h5>
@@ -101,6 +95,5 @@
       </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -65,7 +65,7 @@
 }
 
 .profile-pic {
-  width: min(70vw, 320px);
+  width: 320px;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;
@@ -88,6 +88,7 @@
 
 .contact-links {
   margin-top: 2rem;
+  scroll-margin-top: 95px;
 }
 
 .contact-links h2 {
@@ -164,27 +165,4 @@
   object-position: top;
   border: 1px solid #3a3a5c;
   border-radius: 8px;
-}
-
-@media (max-width: 991.98px) {
-  .profile-hero {
-    min-height: auto;
-  }
-
-  .profile-details {
-    text-align: center;
-  }
-
-  .contact-links .d-flex {
-    justify-content: center;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .profile-hero,
-  .showcase-section {
-    width: calc(100% - 2rem);
-    margin: 1rem auto;
-    border-radius: 16px;
-  }
 }
