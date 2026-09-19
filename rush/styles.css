@@ -265,3 +265,41 @@
   padding: 0;
   background-color: transparent;
 }
+
+@media (max-width: 991.98px) {
+  .profile-hero {
+    min-height: auto;
+  }
+
+  .profile-details {
+    text-align: center;
+  }
+
+  .contact-links .d-flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile-hero,
+  .showcase-section {
+    width: calc(100% - 2rem);
+    margin: 1rem auto;
+    border-radius: 16px;
+  }
+
+  .profile-pic {
+    width: min(80vw, 320px);
+    height: min(80vw, 320px);
+  }
+
+  .showcase-two-images {
+    min-height: 0;
+    flex-direction: column;
+  }
+
+  .showcase-two-images img {
+    width: 100%;
+    height: auto;
+  }
+}
